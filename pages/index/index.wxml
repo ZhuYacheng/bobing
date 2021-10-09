@@ -12,7 +12,7 @@
   </navigator>
 </view>
 <view style="opacity: {{0.72}};">
-  <navigator url = "/pages/multiplayer_game/multiplayer_game" open-type="redirect">
+  <navigator url = "/pages/inputNumber/inputNumber" open-type="redirect">
     <image class="styleImage_3" src="/icon/联机模式.png"></image>    
   </navigator>
 </view>

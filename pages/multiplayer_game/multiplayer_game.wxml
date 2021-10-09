@@ -1,0 +1,199 @@
+<image class="bg_image" mode = "scaleToFill" lazy-load src="/软工/背景3.png"></image>
+
+<view wx:if="{{now_num <= userNumbers}}">
+  <button bindtap="handle_dice" class="button_style">
+      <image class="button_image" src="/icon/摇一摇.png" ></image>
+</button>
+</view>
+
+
+<input type="number" bindinput="handle_num" />
+
+<image src ="/icon/碗.png" class="bowl_style" mode="scaleToFill" style="opacity: {{0.9}}" ></image>
+
+<navigator url="/pages/index/index" open-type="switchTab" >
+  <image class="home_image" src="/icon/返回.png" mode="scaleToFill"></image>
+</navigator>
+<!-- 1点 -->
+<view>
+  <view wx:if="{{num1 === 1 }}">
+    <image class="dice_style1" src="/软工/一点.png"></image>
+    </view>
+    <view wx:if="{{num1 === 2 }}">
+      <image class="dice_style1" src="/软工/2点.png"></image>
+    </view>
+    <view wx:if="{{num1 === 3 }}">
+      <image class="dice_style1" src="/软工/3点.png"></image>
+    </view>
+    <view wx:if="{{num1 === 4 }}">
+      <image class="dice_style1" src="/软工/4点.png"></image>
+    </view>
+    <view wx:if="{{num1 === 5 }}">
+      <image class="dice_style1" src="/软工/5点.png"></image>
+    </view>
+    <view wx:if="{{num1 === 6 }}">
+      <image class="dice_style1" src="/软工/6点.png"></image>
+    </view>
+
+</view>
+<!-- 2点 -->
+<view>
+    <view wx:if="{{num2 === 1 }}">
+    <image class="dice_style2" src="/软工/一点.png"></image>
+    </view>
+    <view wx:if="{{num2 === 2 }}">
+      <image class="dice_style2" src="/软工/2点.png"></image>
+    </view>
+    <view wx:if="{{num2 === 3 }}">
+      <image class="dice_style2" src="/软工/3点.png"></image>
+    </view>
+    <view wx:if="{{num2 === 4 }}">
+      <image class="dice_style2" src="/软工/4点.png"></image>
+    </view>
+    <view wx:if="{{num2 === 5 }}">
+      <image class="dice_style2" src="/软工/5点.png"></image>
+    </view>
+    <view wx:if="{{num2 === 6 }}">
+      <image class="dice_style2" src="/软工/6点.png"></image>
+    </view>
+</view>
+<!-- 3点 -->
+<view>
+    <view wx:if="{{num3 === 1 }}">
+    <image class="dice_style3" src="/软工/一点.png"></image>
+    </view>
+    <view wx:if="{{num3 === 2 }}">
+      <image class="dice_style3" src="/软工/2点.png"></image>
+    </view>
+    <view wx:if="{{num3 === 3 }}">
+      <image class="dice_style3" src="/软工/3点.png"></image>
+    </view>
+    <view wx:if="{{num3 === 4 }}">
+      <image class="dice_style3" src="/软工/4点.png"></image>
+    </view>
+    <view wx:if="{{num3 === 5 }}">
+      <image class="dice_style3" src="/软工/5点.png"></image>
+    </view>
+    <view wx:if="{{num3 === 6 }}">
+      <image class="dice_style3" src="/软工/6点.png"></image>
+    </view>
+</view>
+<!-- 4点 -->
+<view>
+    <view wx:if="{{num4 === 1 }}">
+      <image class="dice_style4" src="/软工/一点.png"></image>
+    </view>
+    <view wx:if="{{num4 === 2 }}">
+      <image class="dice_style4" src="/软工/2点.png"></image>
+    </view>
+    <view wx:if="{{num4 === 3 }}">
+      <image class="dice_style4" src="/软工/3点.png"></image>
+    </view>
+    <view wx:if="{{num4 === 4 }}">
+      <image class="dice_style4" src="/软工/4点.png"></image>
+    </view>
+    <view wx:if="{{num4 === 5 }}">
+      <image class="dice_style4" src="/软工/5点.png"></image>
+    </view>
+    <view wx:if="{{num4 === 6 }}">
+      <image class="dice_style4" src="/软工/6点.png"></image>
+    </view>
+</view>
+<!-- 5点 -->
+<view>
+    <view wx:if="{{num5 === 1 }}">
+      <image class="dice_style5" src="/软工/一点.png"></image>
+    </view>
+    <view wx:if="{{num5 === 2 }}">
+      <image class="dice_style5" src="/软工/2点.png"></image>
+    </view>
+    <view wx:if="{{num5 === 3 }}">
+      <image class="dice_style5" src="/软工/3点.png"></image>
+    </view>
+    <view wx:if="{{num5 === 4 }}">
+      <image class="dice_style5" src="/软工/4点.png"></image>
+    </view>
+    <view wx:if="{{num5 === 5 }}">
+      <image class="dice_style5" src="/软工/5点.png"></image>
+    </view>
+    <view wx:if="{{num5 === 6 }}">
+      <image class="dice_style5" src="/软工/6点.png"></image>
+    </view>
+</view>
+<!-- 6点 -->
+<view>
+    <view wx:if="{{num6 === 1 }}">
+      <image class="dice_style6" src="/软工/一点.png"></image>
+    </view>
+    <view wx:if="{{num6 === 2 }}">
+      <image class="dice_style6" src="/软工/2点.png"></image>
+    </view>
+    <view wx:if="{{num6 === 3 }}">
+      <image class="dice_style6" src="/软工/3点.png"></image>
+    </view>
+    <view wx:if="{{num6 === 4 }}">
+      <image class="dice_style6" src="/软工/4点.png"></image>
+    </view>
+    <view wx:if="{{num6 === 5 }}">
+      <image class="dice_style6" src="/软工/5点.png"></image>
+    </view>
+    <view wx:if="{{num6 === 6 }}">
+      <image class="dice_style6" src="/软工/6点.png"></image>
+    </view>
+</view>
+
+<view wx:if="{{now_num <= userNumbers}}">
+  <view class="text_style" style="font-family: 'Courier New', Courier, monospace;" >
+   <view wx:if="{{arr[4]===4}}">
+      <view wx:if="{{arr[2]===2}}">玩家{{now_num}}：{{rank_list[11]}} </view>  
+      <view wx:else>玩家{{now_num}}：{{rank_list[5]}}</view>
+   </view>
+
+   <view wx:elif = "{{arr[4]==6}}">玩家{{now_num}}：{{rank_list[10]}}</view>
+   
+   <view wx:elif="{{arr[4]==5}}">玩家{{now_num}}：{{rank_list[8]}}</view>
+
+   <view wx:elif="{{arr[4]==3}}">玩家{{now_num}}：{{rank_list[3]}}</view>
+
+   <view wx:elif="{{arr[4]==2}}">
+      <view wx:if="{{arr[2]==4}}">玩家{{now_num}}：{{rank_list[2]}}</view>
+      <view wx:else>玩家{{now_num}}：{{rank_list[1]}}</view>
+   </view>
+
+   <view wx:elif="{{arr[4]==1}}">
+      <view wx:if="{{arr[3]==5}}">玩家{{now_num}}：{{rank_list[7]}}</view>
+      <view wx:elif="{{arr[2]==4}}">玩家{{now_num}}：{{rank_list[2]}}</view>
+      <view wx:elif="{{arr[1]==1}}">
+        <view wx:if="{{arr[2]==1}}">
+          <view wx:if="{{arr[3]==1}}">
+            <view wx:if="{{arr[5]==1}}">
+              <view wx:if="{{arr[6]==1}}">
+                玩家{{now_num}}：{{rank_list[4]}}
+              </view>
+            <view wx:else>玩家{{now_num}}：{{rank_list[0]}}</view>
+            </view>
+          </view>
+          <view wx:else>玩家{{now_num}}：{{rank_list[0]}}</view>
+        </view>
+        <view wx:else>玩家{{now_num}}：{{rank_list[0]}}</view>
+      </view>
+      <view wx:else>玩家{{now_num}}：{{rank_list[0]}}</view>
+   </view>
+    
+   <view wx:elif="{{arr[4]==0}}">
+     <view wx:if="{{arr[6]==6}}">玩家{{now_num}}：{{rank_list[9]}}</view>
+     <view wx:elif="{{arr[3]==5}}">玩家{{now_num}}：{{rank_list[6]}}</view>
+     <view wx:elif="{{arr[2]==4}}">玩家{{now_num}}：{{rank_list[2]}}</view>
+     <view wx:else>玩家{{now_num}}：无</view>
+   </view>
+  </view>
+</view>
+<view wx:else class="return_style">
+      游戏结束，请退出!
+</view>
+
+
+
+
+
+
