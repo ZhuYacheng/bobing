@@ -1,0 +1,37 @@
+.bg_image{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1
+}
+.text_style{
+  font-size: 20px;
+  position: absolute;
+  background-color:#B42A37;
+  top: 150px;
+  left:125px;
+  opacity: 0.7;
+}
+.number_style{
+  background-color:#B42A37;
+  font-size: xx-large;
+  height:100px;
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  top: 176px;
+  left: 56px;
+  border-radius:12%;
+  opacity: 0.7;
+}
+.button_size{
+  font-size: xx-large;
+  position: absolute;
+  height: 300;
+  width: 150;
+  text-align: center;
+  background-color: #B42A37;
+  border-radius: 12%;
+  top: 340px;
+  left: 136px;
+}

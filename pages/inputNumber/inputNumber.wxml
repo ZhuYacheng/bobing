@@ -1,0 +1,13 @@
+<image class="bg_image" mode = "scaleToFill" lazy-load src="/软工/背景3.png"></image>
+
+<view class="text_style">
+   请输入游戏人数：
+</view>
+
+<input type="number" class="number_style" bindinput="handle_user" />
+
+<view wx:if="{{num>0}}">
+  <navigator url="/pages/multiplayer_game/multiplayer_game" class="button_size">
+    开始游戏
+  </navigator>
+</view>

@@ -1,0 +1,48 @@
+/**index.wxss**/
+image{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1
+}
+.styleImage_1{
+  height: 110px;
+  width: 110px;
+  top: 220px;
+  left: 25px;
+  border-radius: 27%;
+}
+.styleImage_2{
+  height: 110px;
+  width: 110px;
+  top: 420px;
+  left: 100px;
+  border-radius: 27%;
+}
+.styleImage_3{
+  height: 110px;
+  width: 110px;
+  top: 350px;
+  left: 275px;
+  border-radius: 27%;
+}
+
+.rule_style{
+  background: rgb(255, 255, 255);
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 30px;
+  left: 350px;
+  text-align: center;
+  font-size: small;
+}
+.rule_image{
+  height:100%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}

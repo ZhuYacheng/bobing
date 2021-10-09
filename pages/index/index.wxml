@@ -1,0 +1,25 @@
+<image mode = "scaleToFill" lazy-load src="https://s3.bmp.ovh/imgs/2021/10/00bdddfff5a4cf5f.png"/> 
+<!-- <image class="styleImage_1" src="https://s3.bmp.ovh/imgs/2021/10/bc92bdfca09b053b.png"></image>   -->
+
+<view style="opacity: {{0.72}};">
+  <navigator url = "/pages/game_lobby/game_lobby" open-type="redirect">
+    <image class="styleImage_1" src="/icon/游戏大厅.png"></image>    
+  </navigator>
+</view>
+<view style="opacity: {{0.72}};">
+  <navigator url = "/pages/solitaire_game/solitaire_game" open-type="redirect">
+    <image class="styleImage_2" src="/icon/单人模式.png"></image>    
+  </navigator>
+</view>
+<view style="opacity: {{0.72}};">
+  <navigator url = "/pages/multiplayer_game/multiplayer_game" open-type="redirect">
+    <image class="styleImage_3" src="/icon/联机模式.png"></image>    
+  </navigator>
+</view>
+
+<button class="rule_style"> 
+  <navigator url="/pages/rule/rule">
+    <image class="rule_image" src="/icon/规则.png"></image>
+  </navigator>
+</button>
+

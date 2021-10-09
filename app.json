@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/ranklist/ranklist",
+    "pages/mine/mine",
+    "pages/rule/rule",
+    "pages/game_lobby/game_lobby",
+    "pages/solitaire_game/solitaire_game",
+    "pages/multiplayer_game/multiplayer_game"
+    
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#AFCCED",
+    "enablePullDownRefresh": false,
+    "navigationBarTitleText": "中秋博饼",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list":
+    [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/首页.png" ,
+        "selectedIconPath": "icon/首页.png"
+      },
+      {
+        "pagePath": "pages/ranklist/ranklist",
+        "text": "榜单",
+        "iconPath": "icon/排行榜_排名.png" ,
+        "selectedIconPath": "icon/排行榜_排名.png"
+
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/用户.png",
+        "selectedIconPath": "icon/用户.png"
+      }
+    ],
+    "color": "#ffffff",
+    "selectedColor": "#000000",
+    "backgroundColor": "#AFCCED",
+    "borderStyle": "black"
+  },
+
+  "sitemapLocation": "sitemap.json"
+}
